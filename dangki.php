@@ -112,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   ?>
 
     <div class="container">
-    <a href="indexuser.php"><img src="images/logo-29.png" alt="" style="height: 100px;"></a>
+    <a href="index.php"><img src="images/logo-29.png" alt="" style="height: 100px;"></a>
     <h2 style="font-family: monospace; color: rgb(0, 9, 91);">Đăng kí tài khoản người dùng </h2>
     <h2 style="font-family: monospace; color: rgb(0, 9, 91);">Nhận nhiều ưu đãi!</h2>
     </div>

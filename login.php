@@ -30,7 +30,7 @@
             header("location: admin.php");
           } else if ($role == 0) {
             $_SESSION['user']=$user;
-            header("location: indexuser.php");
+            header("location: index.php");
           } else {
             header("location: user.php");
           }
@@ -63,7 +63,7 @@
 
 
     <div class="menu" >
-        <a style="font-family: monospace;" href="indexuser.php">Sản Phẩm</a>
+        <a style="font-family: monospace;" href="index.php">Sản Phẩm</a>
     </div>
 
     <div class="menu" >

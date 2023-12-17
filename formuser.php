@@ -100,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
       // Chuyển hướng đến trang cảm ơn
       if ($result > 0) {
-        header("Location: indexuser.php");
+        header("Location: index.php");
       } else {
         // Hiển thị lỗi
         echo "<p style='color: red'>Có lỗi xảy ra. Vui lòng thử lại sau. (". mysqli_error($conn) .")</p>";

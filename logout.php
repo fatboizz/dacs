@@ -6,5 +6,5 @@
     session_destroy();
     
     // Chuyển hướng người dùng đến trang chủ
-    header('location: indexuser.php');
+    header('location: index.php');
 ?>
